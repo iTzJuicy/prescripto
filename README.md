@@ -1,7 +1,8 @@
 <div align="center">
 
-# 🩺 PRESCRIPTO - Full Stack Healthcare System 👨‍⚕️🏥🤒  
-**Doctor Appointment +  AI-Powered Health Prediction Platform**
+# 🩺 PRESCRIPTO - Full Stack Healthcare System 👨‍⚕️🏥🤒
+
+**Doctor Appointment + AI-Powered Health Prediction Platform**
 
 </div>
 
@@ -9,49 +10,48 @@
 
 ## 📌 About the Project
 
-**Prescripto** is a **full-stack, production-ready healthcare web application** designed to modernize legacy hospital scheduling and streamline patient care. The platform supports **3 roles**:
+**Prescripto** is a **full-stack healthcare web application** designed to modernize hospital appointment systems and improve patient–doctor interaction. The platform provides a seamless experience for managing medical appointments and monitoring health insights.
 
-- 🧍‍♂️ **Patient** – Book appointments, track health history, and view AI-based health predictions.  
-- 👨‍⚕️ **Doctor** – Manage appointments, update profiles, and monitor patient history.  
-- 🛡 **Admin** – Oversee doctors, appointments, and platform operations.
+The system supports **three primary roles**:
 
-It also includes **AI-driven prediction tools** for heart disease, diabetes, Parkinson’s disease, and mental health risks, helping patients take proactive steps for better wellbeing.
+* 🧍‍♂️ **Patient** – Book appointments, track medical activity, and access AI-based health predictions
+* 👨‍⚕️ **Doctor** – Manage appointments, update availability, and review patient history
+* 🛡 **Admin** – Manage doctors, monitor appointments, and control platform operations
 
-**Project Link:** [GitHub Repository](https://github.com/aaryansrawat18/prescripto-full-stack)
-
----
-
-## 🚀 Live Demo Links
-
-| Interface       | Demo Link |
-|----------------|-----------|
-| **User UI**     | ![User Dashboard](https://github.com/user-attachments/assets/f953ae81-7cc8-4b6b-8101-c3aa47d0aada) |
-| **Admin Panel** | [Visit Admin Dashboard](https://prescripto-admin-beta.vercel.app) |
+The platform also integrates **AI-based health prediction tools** to help users evaluate potential health risks and take proactive steps toward better wellbeing.
 
 ---
 
-## 🖼 UI Screenshots
+## 🚀 Live Demo
+
+| Interface          | Access                                                |
+| ------------------ | ----------------------------------------------------- |
+| **User Dashboard** | Available in the application UI                       |
+| **Admin Panel**    | Admin dashboard for managing doctors and appointments |
+
+---
+
+## 🖼 Application Screenshots
 
 <div align="center">
 
 ### 👤 Patient Dashboard
-<img width="1706" height="822" alt="image" src="https://github.com/user-attachments/assets/7e75d43f-d3a1-44da-b5d2-3cdc38952bc4" />
 
+<img width="1706" height="822" alt="Patient Dashboard" src="https://github.com/user-attachments/assets/7e75d43f-d3a1-44da-b5d2-3cdc38952bc4" />
 
 ### 🧑‍⚕️ Doctor Panel
-![Doctor Panel](https://github.com/user-attachments/assets/ed488e0a-a61a-4cb1-b95a-f19b9135f9b2)
+
+<img src="https://github.com/user-attachments/assets/ed488e0a-a61a-4cb1-b95a-f19b9135f9b2" />
 
 ### 🎯 Admin Panel
-![Admin Panel](https://github.com/user-attachments/assets/5479b3c0-0663-41ec-9fe2-17434249155c)
 
+<img src="https://github.com/user-attachments/assets/5479b3c0-0663-41ec-9fe2-17434249155c" />
 
+### 🧠 Health Prediction Module
 
-Prediction page
-
-<img width="1619" height="810" alt="image" src="https://github.com/user-attachments/assets/db2e36bc-6d3c-4a47-b330-f84a06315784" />
-<img width="1682" height="762" alt="image" src="https://github.com/user-attachments/assets/b41c2b1d-3c04-4d96-8a41-99ca32b2db62" />
-
-<img width="938" height="746" alt="image" src="https://github.com/user-attachments/assets/3d94805c-bf57-47c3-bae6-72033bc4d86b" />
+<img width="1619" height="810" src="https://github.com/user-attachments/assets/db2e36bc-6d3c-4a47-b330-f84a06315784" />
+<img width="1682" height="762" src="https://github.com/user-attachments/assets/b41c2b1d-3c04-4d96-8a41-99ca32b2db62" />
+<img width="938" height="746" src="https://github.com/user-attachments/assets/3d94805c-bf57-47c3-bae6-72033bc4d86b" />
 
 </div>
 
@@ -59,44 +59,75 @@ Prediction page
 
 ## ✨ Key Features
 
-- 🔐 Secure JWT authentication for **3 roles**  
-- 📅 Doctor appointment booking, rescheduling, and 24/7 scheduling  
-- 🧠 AI-powered **multi-disease prediction** (Heart Disease, Diabetes, Parkinson’s, Mental Health)  
-- 📄 Patient profile and medical history tracking  
-- 📊 Admin dashboard with full control over doctors and bookings  
-- 💻 Responsive UI built with React.js + Tailwind CSS  
-- ⚡ Real-time data flow and backend integration using Node.js + Express.js + MongoDB  
+* 🔐 Secure authentication using **JWT**
+* 📅 Doctor appointment booking and scheduling
+* 👨‍⚕️ Doctor dashboard for managing patients and appointments
+* 🛡 Admin panel for platform management
+* 🧠 AI-powered **health risk prediction**
+* 📄 Patient profile and health activity tracking
+* 📱 Fully responsive interface
+* ⚡ Real-time communication between frontend and backend services
 
 ---
 
-## 🧪 Health Predictions Supported
+## 🧪 Health Predictions Included
 
-- **Heart Disease** – Assess risk and receive personalized insights  
-- **Diabetes** – Evaluate risk based on key indicators and get actionable recommendations  
-- **Parkinson’s Disease** – Analyze risk factors with advanced prediction models  
-- **Mental Health** – AI-powered mental wellbeing assessment  
-- **Prediction History** – Track past assessments for reference  
+The system supports predictive analysis for:
 
-> ⚠️ **Note:** Health predictions are for informational purposes only. Always consult a healthcare professional for diagnosis and treatment.
+* ❤️ **Heart Disease Risk**
+* 🩸 **Diabetes Risk**
+* 🧠 **Parkinson’s Disease Indicators**
+* 🧘 **Mental Health Risk Assessment**
 
----
+Users can also review **previous prediction results** to monitor health trends.
 
-## 🛠️ Tech Stack
-
-| Layer      | Tech                                      |
-|------------|-------------------------------------------|
-| Frontend   | React.js, Tailwind CSS, Axios, Context API |
-| Backend    | Node.js, Express.js, MongoDB, Mongoose     |
-| Authentication | JWT                                  |
-| ML Models  | Python (served via API or pre-trained predictions) |
-| Hosting    | Vercel (Frontend/UI), Render (Backend/API) |
+> ⚠️ **Disclaimer:** These predictions are informational and should not replace professional medical advice.
 
 ---
 
-## ⚙️ How to Run Locally
+## 🛠 Tech Stack
 
-### Backend
+| Layer                | Technologies                   |
+| -------------------- | ------------------------------ |
+| **Frontend**         | React.js, Tailwind CSS, Axios  |
+| **Backend**          | Node.js, Express.js            |
+| **Database**         | MongoDB, Mongoose              |
+| **Authentication**   | JSON Web Tokens (JWT)          |
+| **Machine Learning** | Python-based prediction models |
+| **Deployment**       | Vercel / Render                |
+
+---
+
+## ⚙️ Running the Project Locally
+
+### Backend Setup
+
 ```bash
 cd backend
 npm install
 npm run server
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 📊 System Modules
+
+* Patient Appointment Management
+* Doctor Profile & Availability
+* Admin Control Panel
+* AI Health Prediction System
+* Patient Health Records
+
+---
+
+## 📄 License
+
+This project is intended for **educational and demonstration purposes**.
